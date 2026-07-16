@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.1
+
+- 固定 README 中的安装链接到不可变 Release 标签；
+- 完成从 GitHub 全新安装、启用轻量 Guard Plugin 和中文 Skill 目录验证。
+
 ## v1.0.0
 
 - 自动推进到飞书二维码图片；

@@ -13,7 +13,7 @@
 
 发布后，正式安装链接将采用中文目录：
 
-`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/飞书子智能体创建/SKILL.md`
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.1/飞书子智能体创建/SKILL.md`
 
 ## 用户使用方式
 
