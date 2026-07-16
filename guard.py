@@ -12,7 +12,6 @@ _BLOCKED_TERMINAL_MARKERS = (
     "hermes gateway stop", "hermes gateway restart",
     "gateway run", "gateway stop", "gateway restart",
 )
-_BLOCKED_FILE_MARKERS = ("/.env",)
 
 
 def block_parent_risk_operation(tool_name: str, args: dict[str, Any], **_: Any) -> dict[str, str] | None:
@@ -25,7 +24,7 @@ def block_parent_risk_operation(tool_name: str, args: dict[str, Any], **_: Any) 
             }
     if tool_name in {"read_file", "write_file", "patch"}:
         path = str(args.get("path", "")).lower()
-        if any(marker in path for marker in _BLOCKED_FILE_MARKERS):
+        if path == ".env" or path.endswith("/.env"):
             return {
                 "action": "block",
                 "message": "独立子智能体创建期间禁止直接读取或修改凭据文件。请勿绕过 Skill 的安全规则。",
