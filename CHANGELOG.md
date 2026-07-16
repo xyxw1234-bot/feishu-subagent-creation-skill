@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.2
+
+- 在仓库根目录增加兼容性安装入口 `SKILL.md`；
+- 保留中文目录版本，并在 README 中使用 URL 编码的中文路径；
+- 修复部分聊天客户端截断中文 Raw GitHub 路径的问题。
+
 ## v1.0.1
 
 - 固定 README 中的安装链接到不可变 Release 标签；

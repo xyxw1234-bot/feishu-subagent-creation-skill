@@ -11,9 +11,13 @@
 
 ## 正式安装链接
 
-发布后，正式安装链接将采用中文目录：
+发布后，请优先使用兼容性最好的固定安装链接：
 
-`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.1/飞书子智能体创建/SKILL.md`
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.2/SKILL.md`
+
+中文目录版本也会保留：
+
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.2/%E9%A3%9E%E4%B9%A6%E5%AD%90%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%9B%E5%BB%BA/SKILL.md`
 
 ## 用户使用方式
 
