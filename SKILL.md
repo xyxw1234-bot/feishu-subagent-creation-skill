@@ -1,7 +1,7 @@
 ---
 name: feishu-subagent-creation
 description: Use when a user explicitly asks to create an independent Feishu subagent. Follow the fixed automatic QR creation and verification workflow; never expose technical process or operate infrastructure outside the approved flow.
-version: 1.0.7
+version: 1.0.8
 author: Node Engine
 license: Proprietary
 metadata:
