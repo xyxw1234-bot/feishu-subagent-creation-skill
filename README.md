@@ -9,6 +9,12 @@
 
 插件不创建后台系统、不管理二维码、不保存凭据、不运行服务，也不向用户显示任何技术过程。
 
+## 正式安装链接
+
+发布后，正式安装链接将采用中文目录：
+
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/飞书子智能体创建/SKILL.md`
+
 ## 用户使用方式
 
 用户将该仓库中**固定 Release 或固定 commit SHA**对应的 `SKILL.md` 链接发给自己的主智能体，并明确说：
