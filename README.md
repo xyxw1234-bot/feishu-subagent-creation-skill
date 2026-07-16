@@ -13,11 +13,11 @@
 
 发布后，请优先使用兼容性最好的固定安装链接：
 
-`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.4/SKILL.md`
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.5/SKILL.md`
 
 中文目录版本也会保留：
 
-`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.4/%E9%A3%9E%E4%B9%A6%E5%AD%90%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%9B%E5%BB%BA/SKILL.md`
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.5/%E9%A3%9E%E4%B9%A6%E5%AD%90%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%9B%E5%BB%BA/SKILL.md`
 
 ## 用户使用方式
 
@@ -32,6 +32,7 @@
 用户只需要：
 
 1. 扫描飞书官方二维码并命名创建；
-2. 在新机器人中发送一次“你是谁？”。
+2. 等待新智能体主动发送简短欢迎介绍；
+3. 直接向新智能体说出真实需求。
 
 其余步骤由接收 Skill 的主智能体自动执行。
