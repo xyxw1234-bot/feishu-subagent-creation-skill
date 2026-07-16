@@ -1,4 +1,4 @@
-# 节点引擎丨飞书独立子智能体创建 Skill
+# 飞书独立子智能体创建 Skill
 
 这是一个**轻量 Skill + Guard Plugin〔安全守卫插件〕**仓库，用于统一分发“独立飞书子智能体创建与验收”规则。
 
@@ -13,11 +13,11 @@
 
 发布后，请优先使用兼容性最好的固定安装链接：
 
-`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.6/SKILL.md`
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.7/SKILL.md`
 
 中文目录版本也会保留：
 
-`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.6/%E9%A3%9E%E4%B9%A6%E5%AD%90%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%9B%E5%BB%BA/SKILL.md`
+`https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.0.7/%E9%A3%9E%E4%B9%A6%E5%AD%90%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%9B%E5%BB%BA/SKILL.md`
 
 ## 用户使用方式
 
