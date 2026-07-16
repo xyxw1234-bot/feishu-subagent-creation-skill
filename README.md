@@ -6,7 +6,7 @@
 
 请把下面这一个链接固定发到用户群。它始终读取仓库 `main` 分支的根目录 `SKILL.md`；后续规则更新后，新用户仍使用同一个链接，自动读取最新版本：
 
-https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
+https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/refs/heads/main/SKILL.md
 
 **不要让用户智能体自行在仓库目录中寻找文件。**仓库主页适合人查看说明和版本记录；真正交给智能体执行的只有上面的 Raw Skill 链接。
 
@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/ma
 
 > 请读取并严格执行这个 Skill，为我创建独立飞书子智能体。不要让我做技术选择或额外确认；完成后由新智能体主动向我发送欢迎介绍：
 >
-> https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
+> https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/refs/heads/main/SKILL.md
 
 ## 用户只需要做什么
 
