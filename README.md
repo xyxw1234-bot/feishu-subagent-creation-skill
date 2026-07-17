@@ -1,34 +1,44 @@
 # 飞书独立子智能体创建
 
-一个面向用户直接分发的飞书独立子智能体创建 Skill。
+这是一个面向**用户主智能体**的轻量执行 Skill。它帮助主智能体按统一、少打扰的方式，为用户推进独立飞书子智能体的创建流程。
 
-它让主智能体在收到明确创建请求后，自动推进到飞书官方二维码，并在用户扫码创建后继续完成连接、欢迎和验收流程。用户不需要参与技术选择、配置或排障。
+## 从哪里开始
 
-## 给用户的唯一链接
+- **给人看、给用户转发：**直接发送本仓库主页：
+  https://github.com/xyxw1234-bot/feishu-subagent-creation-skill
+- **给智能体执行：**仓库根目录的 [`SKILL.md`](./SKILL.md) 是唯一执行源。
+- **版本稳定性：**实际执行建议固定到 Release 标签；需要持续获取优化时使用 `main/SKILL.md`。
 
-https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
+## 给用户智能体的一句话
 
-## 用户只需发送
+请打开并阅读此仓库的 README 与根目录 SKILL.md，严格按 SKILL.md 为我创建独立飞书子智能体；不要让我做技术选择或额外确认，完成后由新智能体主动向我发送欢迎介绍。
 
-请读取并严格执行这个 Skill，为我创建一个独立、长期可用的飞书子智能体。
+https://github.com/xyxw1234-bot/feishu-subagent-creation-skill
 
-https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
+## 用户只需要做什么
 
-要求：请直接开始创建并生成飞书官方二维码；我扫码后填写机器人名称和昵称并完成创建，其余连接、验证和欢迎流程由你自动完成。
+1. 在收到的飞书官方二维码上扫码；
+2. 在飞书官方页面填写机器人名称和昵称并点击创建；
+3. 等待新智能体主动发送欢迎介绍；
+4. 直接向新智能体提出真实需求。
 
-## 用户流程
+用户不需要发送“你是谁？”、“测试”、确认口令，不需要回主智能体汇报，也不需要处理密钥、日志、端口、服务或其他技术问题。
 
-1. 主智能体生成飞书官方二维码；
-2. 用户扫码，在官方页面填写机器人名称和昵称并创建；
-3. 系统自动完成后续连接与验证；
-4. 新智能体主动发送欢迎消息，用户即可直接使用。
+## 仓库结构
 
-## 说明
+| 位置 | 用途 | 面向谁 |
+|---|---|---|
+| `README.md` | 使用说明、分发文案与边界 | 人和主智能体 |
+| `SKILL.md` | 唯一执行规则 | 主智能体 |
+| `CHANGELOG.md` | 版本变更 | 管理员 |
+| `LICENSE` | 授权说明 | 所有人 |
 
-- 本仓库对外只分发 `SKILL.md`，不要求用户安装插件、下载组件或理解技术实现。
-- 用户侧不应看到密钥、命令、日志、端口、路径或排障过程。
-- 只有已完成真实连接和验证的子智能体，才可以被表述为“已创建并可用”。
+本仓库不分发、安装或要求用户理解任何 Guard Plugin〔安全守卫插件〕。仅发送本仓库链接时，主智能体只应读取根目录 `SKILL.md` 并依其规则执行。
 
-## 版本
+## 固定版本入口
 
-当前对外分发版：`v1.0.9`。它恢复 `v1.0.7` 的直接创建体验，并清理了不应出现在用户分发主链中的插件文件。
+当前稳定版本为 `v1.1.0`：
+
+- Release：https://github.com/xyxw1234-bot/feishu-subagent-creation-skill/releases/tag/v1.1.0
+- 固定 Skill 原文：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.0/SKILL.md
+- 持续更新入口：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
