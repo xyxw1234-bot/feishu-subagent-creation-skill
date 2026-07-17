@@ -1,3 +1,0 @@
-name: feishu-subagent-guard
-version: "1.0.8"
-description: Lightweight Hermes guard for Feishu subagent creation. Blocks direct parent-risk Gateway, s6, process and credential operations before they execute.
