@@ -37,8 +37,8 @@ https://github.com/xyxw1234-bot/feishu-subagent-creation-skill
 
 ## 固定版本入口
 
-当前稳定版本为 `v1.1.0`：
+当前稳定版本为 `v1.1.1`：
 
-- Release：https://github.com/xyxw1234-bot/feishu-subagent-creation-skill/releases/tag/v1.1.0
-- 固定 Skill 原文：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.0/SKILL.md
+- Release：https://github.com/xyxw1234-bot/feishu-subagent-creation-skill/releases/tag/v1.1.1
+- 固定 Skill 原文：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.1/SKILL.md
 - 持续更新入口：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
