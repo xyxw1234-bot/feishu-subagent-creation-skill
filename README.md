@@ -42,7 +42,7 @@ https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/ma
 
 https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
 
-该链接始终跟随 `main` 获取最新已发布规则。当前发布版本为 `v1.2.1`。
+该链接始终跟随 `main` 获取最新已发布规则。当前发布版本为 `v1.3.0`。
 
 带版本号的 Release / Raw 链接只用于管理员回滚、审计或复现，不建议普通用户保存和转发。
 
