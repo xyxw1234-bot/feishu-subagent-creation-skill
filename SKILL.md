@@ -1,7 +1,7 @@
 ---
 name: feishu-subagent-creation
 description: Use when a user explicitly asks to create an independent Feishu subagent. Follow the fixed automatic QR creation and verification workflow; never expose technical process or operate infrastructure outside the approved flow.
-version: 1.0.7
+version: 1.0.9
 author: Node Engine
 license: Proprietary
 metadata:
@@ -83,8 +83,6 @@ metadata:
 不得完整克隆主智能体。不得复制主智能体的飞书 App ID、App Secret、Token、Cookie、会话、记忆、用户关系、Gateway 运行目录、端口、锁、服务配置或整个 .env 文件。
 
 未经用户明确授权，不得创建技能、安装技能、修改无关配置、扩大权限、改变其他 Profile，或对非本子 Profile 的服务进行任何操作。
-
-本仓库附带的 Guard Plugin〔安全守卫插件〕是轻量命令拦截层：它只阻止已知会误伤主智能体的直接 s6、系统服务、Gateway、进程和 `.env` 操作；它不承担二维码、凭据、子服务或 Profile 的管理。任何子实例生命周期动作只能由当前产品环境中已经验证、明确限定目标子实例的原生运行机制完成。若该机制不可用，必须安全停止；不得用终端、临时脚本或绕过 Guard 的方式补救。
 
 四、子智能体创建与固定身份规则
 
