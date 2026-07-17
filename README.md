@@ -18,10 +18,11 @@ https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/ma
 
 ## 用户只需要做什么
 
-1. 在收到的飞书官方二维码上扫码；
-2. 在飞书官方页面填写机器人名称和昵称并点击创建；
-3. 等待新智能体主动发送欢迎介绍；
-4. 直接向新智能体提出真实需求。
+1. 用飞书扫一扫，或长按收到的二维码图片识别；
+2. 当前用户可以扫码，也可以让将实际使用新智能体的另一位飞书用户扫码，例如家人或孩子；
+3. 在飞书官方页面填写机器人名称和昵称并点击创建；
+4. 等待新智能体主动向扫码账号发送欢迎介绍；
+5. 直接向新智能体提出真实需求。
 
 用户不需要发送“你是谁？”、“测试”、确认口令，不需要回主智能体汇报，也不需要处理密钥、日志、端口、服务或其他技术问题。
 
@@ -42,7 +43,7 @@ https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/ma
 
 https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
 
-该链接始终跟随 `main` 获取最新已发布规则。当前发布版本为 `v1.3.0`。
+该链接始终跟随 `main` 获取最新已发布规则。当前发布版本为 `v1.3.1`。
 
 带版本号的 Release / Raw 链接只用于管理员回滚、审计或复现，不建议普通用户保存和转发。
 
