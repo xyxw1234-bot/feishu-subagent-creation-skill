@@ -6,14 +6,15 @@
 
 - **给人看、给用户转发：**直接发送本仓库主页：
   https://github.com/xyxw1234-bot/feishu-subagent-creation-skill
-- **给智能体执行：**仓库根目录的 [`SKILL.md`](./SKILL.md) 是唯一执行源。
-- **版本稳定性：**实际执行建议固定到 Release 标签；需要持续获取优化时使用 `main/SKILL.md`。
+- **给智能体执行：**使用固定的 Raw Skill 原文：
+  https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.2/SKILL.md
+- **版本稳定性：**仓库根目录的 [`SKILL.md`](./SKILL.md) 是唯一执行源；需要持续获取优化时使用 `main/SKILL.md`。
 
 ## 给用户智能体的一句话
 
-请打开并阅读此仓库的 README 与根目录 SKILL.md，严格按 SKILL.md 为我创建独立飞书子智能体；不要让我做技术选择或额外确认，完成后由新智能体主动向我发送欢迎介绍。
+请读取并严格执行这个 Skill，为我创建一个独立、长期可用的飞书子智能体。不要让我做技术选择或额外确认；请直接生成飞书官方二维码，扫码创建后自动完成连接、验证和欢迎流程。
 
-https://github.com/xyxw1234-bot/feishu-subagent-creation-skill
+https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.2/SKILL.md
 
 ## 用户只需要做什么
 
@@ -37,8 +38,10 @@ https://github.com/xyxw1234-bot/feishu-subagent-creation-skill
 
 ## 固定版本入口
 
-当前稳定版本为 `v1.1.1`：
+当前稳定版本为 `v1.1.2`：
 
-- Release：https://github.com/xyxw1234-bot/feishu-subagent-creation-skill/releases/tag/v1.1.1
-- 固定 Skill 原文：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.1/SKILL.md
+- Release：https://github.com/xyxw1234-bot/feishu-subagent-creation-skill/releases/tag/v1.1.2
+- 固定 Skill 原文：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/v1.1.2/SKILL.md
 - 持续更新入口：https://raw.githubusercontent.com/xyxw1234-bot/feishu-subagent-creation-skill/main/SKILL.md
+
+`v1.0.0` 至 `v1.0.8` 为历史版本，不建议用于新部署；新用户请只使用当前稳定版本或持续更新入口。
